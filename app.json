@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Easy Rent Sale",
+    "slug": "EasyRentSale",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/logers.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#318080"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.EasyRentSale.EasyRentSale",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.EasyRentSale.EasyRentSale",
+      "versionCode": 2
+    },
+    "packagerOpts": {
+      "nonPersistent": true
+    },
+    "description": "No description"
+  }
+}
